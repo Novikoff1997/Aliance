@@ -40,6 +40,7 @@ const swiper = new Swiper(".swiper", {
   speed: 400,
   autoHeight: true,
   slidesPerView: 1,
+  loop: false,
   navigation: {
     nextEl: ".slider-button-next",
     prevEl: ".slider-button-prev",
@@ -68,6 +69,36 @@ const swiper = new Swiper(".swiper", {
     },
     1200: {
       slidesPerView: 5,
+      loop: false,
+    },
+  },
+});
+
+const stepsSwiper = new Swiper(".steps-swiper", {
+  speed: 400,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".steps-slider-button-next",
+    prevEl: ".steps-slider-button-prev",
+  },
+  breakpoints: {
+    1: {
+      loop: true,
+      slidesPerView: 1.3,
+    },
+    // when window width is >= 320px
+    576: {
+      slidesPerView: 2,
+      loop: true,
+    },
+    // when window width is >= 480px
+    770: {
+      slidesPerView: 3,
+      loop: true,
+    },
+    // when window width is >= 640px
+    1024: {
+      slidesPerView: 4,
       loop: false,
     },
   },
