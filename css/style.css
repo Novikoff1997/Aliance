@@ -15,6 +15,7 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 .container {
+  overflow: hidden; /* Временное свойство, удалить! */
   max-width: 90rem;
   margin: auto;
 }
@@ -350,6 +351,7 @@ body {
     height: 1px;
     width: 100%;
     background: #ffffff;
+    transition: transform 0.3s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -447,12 +449,13 @@ body {
     text-decoration: none;
     margin-right: 1rem;
   }
-  /* Временные стили что бы не вылазили за body начало */
-  .steps {
-    display: block;
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
   }
-  .header-features {
-    display: block;
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
   }
-  /* Временные стили что бы не вылазили за body конец */
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
+  }
 }
