@@ -1,4 +1,5 @@
 * {
+  overflow-wrap: break-word;
   box-sizing: border-box;
   /* margin: 0; */
 }
@@ -43,12 +44,12 @@ body {
 .icon-phone {
   fill: #5c8ee6;
 }
-.logo-dark {
-  display: none;
-}
 .logo-svg {
   width: 8.75rem;
   height: 2.75rem;
+}
+.logo-dark {
+  display: none;
 }
 .header {
   padding-top: 5.875rem;
@@ -111,9 +112,6 @@ body {
   gap: 0.625rem;
   margin-right: 3.125rem;
 }
-/* .icon-phone {
-  margin-right: 0.25rem;
-} */
 .header-phone-link {
   text-decoration: none;
   font-size: 1rem;
@@ -122,6 +120,7 @@ body {
 .button {
   font-weight: 600;
   font-size: 1rem;
+  line-height: 160%;
   background: rgb(92, 142, 230);
   color: #ffffff;
   padding: 0.9375rem 2.875rem;
@@ -139,8 +138,6 @@ body {
 }
 .header-button {
   height: 100%;
-  /* margin-top: 0.625rem;
-  padding: 1.75rem 3.8125rem; */
 }
 .seporator {
   height: 2px;
@@ -149,8 +146,6 @@ body {
 }
 .header-content {
   padding-top: 1.9375rem;
-  /* margin-top: 5.25rem;
-  margin-left: 0.5625rem; */
   position: relative;
   z-index: 1;
   color: #fff;
@@ -170,6 +165,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 3.125rem;
+  overflow-wrap: break-word; /* современный аналог word-wrap */
 }
 .header-features {
   display: flex;
@@ -182,8 +178,8 @@ body {
   position: relative;
 }
 .header-features-item {
+  height: auto;
   padding: 1.75rem 3.125rem;
-  min-height: 100%;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -224,8 +220,7 @@ body {
   line-height: 160%;
   margin-top: 1.375rem;
   margin-bottom: 0;
-}
-.header-features-item:not(:last-child) {
+  overflow-wrap: break-word;
 }
 .section {
   padding-top: 4rem;
