@@ -16,7 +16,6 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 .container {
-  padding-left: 8px;
   overflow: hidden;
   max-width: 90rem;
   margin: auto;
@@ -456,7 +455,9 @@ body {
     padding: 2rem;
   }
   .logo-svg {
-    max-width: 6rem;
+    max-width: 10rem;
+    width: 11.75rem;
+    height: 4.75rem;
   }
   .header-nav {
     padding-left: 2rem;
@@ -465,7 +466,7 @@ body {
     margin-right: 1rem;
   }
   .header-phone {
-    margin-right: 2rem;
+    margin-right: 0.6rem;
   }
 }
 @media (max-width: 1200px) {
@@ -476,11 +477,15 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.7rem;
   }
   .navbar-button {
+    display: flex;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 25px;
+    width: 18.6375rem;
+    justify-content: center;
   }
   .slider-buttons {
     display: flex;
@@ -510,26 +515,35 @@ body {
     justify-content: center;
     border: none;
   }
+  .header {
+    padding-top: 9.775rem;
+  }
+  .header-content {
+    padding-top: 0.0375rem;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.2rem 2.2rem 2.2rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
     background: #292d33;
   }
   .mobile-menu-line {
-    height: 1px;
-    width: 100%;
+    height: 2px;
+    width: 87%;
     background: #ffffff;
     transition: transform 0.3s;
   }
   .mobile-menu-line:nth-child(2) {
-    width: 80%;
+    width: 70%;
+  }
+  .navbar-button {
+    width: 6.6375rem;
   }
   .navbar-button .button-text {
     display: none;
@@ -666,9 +680,9 @@ body {
   .header-title {
     font-size: 4rem;
   }
-  .header-content {
+  /* .header-content {
     padding-top: 3rem;
-  }
+  } */
   .steps-item {
     max-width: 100%;
   }
@@ -686,11 +700,14 @@ body {
     max-width: 93%;
   }
   .header-title {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
+    line-height: 57px;
+    margin: 1.375rem 0;
+    letter-spacing: 0.1rem;
   }
-  .header-content {
+  /* .header-content {
     padding-top: 2rem;
-  }
+  } */
   .card-image {
     padding-top: 4rem;
   }
@@ -701,6 +718,116 @@ body {
   }
   .trademarks-img {
     width: 100px;
+  }
+  .seporator {
+    width: 100px;
+  }
+  .header-text {
+    padding-top: 4px;
+    font-size: 13px;
+    line-height: 26.9px;
+    margin-bottom: 26px;
+  }
+  .header-button {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+  .section-light {
+    padding-top: 8.5625rem;
+  }
+  .section-title {
+    font-size: 2.75rem;
+    letter-spacing: 0.12rem;
+    margin-bottom: 1.2rem;
+  }
+  .steps-num {
+    font-size: 4rem;
+  }
+  .steps-title {
+    margin-top: 0.775rem;
+    letter-spacing: -1px;
+  }
+  .steps-link {
+    padding-top: 18px;
+    margin-left: 10px;
+    letter-spacing: 1.3px;
+  }
+  .steps-slider-buttons {
+    margin-top: 1.75rem;
+  }
+  .production {
+    margin-top: 16px;
+    padding-bottom: 19px;
+  }
+  .section-mb {
+    margin-bottom: 44px;
+  }
+  .card {
+    margin: 0;
+  }
+  .card:nth-child(1) {
+    margin-top: 5px;
+  }
+  .card:nth-child(1) .card-image {
+    padding-top: 82px;
+  }
+  .card:nth-child(2) {
+    margin-top: 12px;
+  }
+  .card:nth-child(2) .card-image {
+    padding-top: 44px;
+  }
+  .card:nth-child(3) {
+    margin-top: 9px;
+  }
+  .card:nth-child(3) .card-image {
+    padding-top: 74px;
+  }
+  .card:nth-child(4) {
+    margin-top: 12px;
+  }
+  .card:nth-child(4) .card-image {
+    padding-top: 83px;
+  }
+  .card:nth-child(5) {
+    margin-top: 11px;
+  }
+  .card:nth-child(5) .card-image {
+    padding-top: 104px;
+  }
+  .card:nth-child(6) {
+    margin-top: 10px;
+  }
+  .card:nth-child(6) .card-image {
+    padding-top: 44px;
+  }
+  .card .card-title {
+    margin-top: 5px;
+    width: 90%;
+  }
+  .card-text {
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+  }
+  .card-content {
+    padding-left: 30px;
+    padding-top: 0;
+  }
+  .card-image {
+    padding-top: 72px;
+  }
+  .trademarks {
+    padding-top: 6.875rem;
+  }
+  .trademarks-card {
+    padding-top: 0.025rem;
+  }
+  .trademarks-title-mobile {
+    font-size: 20px;
+  }
+  .trademarks-text-mobile {
+    font-size: 14px;
   }
 }
 @media (max-width: 320px) {
