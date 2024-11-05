@@ -105,6 +105,22 @@ body {
   color: inherit;
   position: relative;
 }
+.header-nav-link:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: #5c8ee6;
+  position: absolute;
+  bottom: -1px;
+  transition: width 0.2s;
+  right: 0;
+  left: auto;
+}
+.header-nav-link:hover:after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -127,6 +143,10 @@ body {
   border: none;
   display: inline-block;
   cursor: pointer;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: #3a71d1;
 }
 .navbar-button {
   flex-shrink: 0;
@@ -286,16 +306,127 @@ body {
   line-height: 160%;
   text-decoration: none;
 }
-.steps-link::before {
+.steps-link:before {
   content: "";
   background: rgb(92, 142, 230);
   height: 1px;
   width: 40px;
   margin-right: 1.25rem;
+  transition: width 0.2s;
 }
+.steps-link:hover:before {
+  width: 60px;
+}
+/* ---------------------SECTION PRODUCTS---------------------- */
+.section-product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 40px;
+  flex-basis: 33%;
+  flex-grow: 1;
+  border: 1px solid #ebebf0;
+  transition: border 0.2s;
+}
+.product-card-content {
+  margin-left: 3.125rem;
+}
+.product-card:hover {
+  border-color: #5c8ee6;
+}
+.product-card:hover .product-card-title {
+  color: #5c8ee6;
+}
+.product-card-title {
+  color: #292d33;
+  margin: 0;
+  font-family: Noto Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  transition: color 0.2s;
+}
+.product-card-text {
+  width: 19.375rem;
+  height: 6.5rem;
+  margin: 0;
+  color: #828a99;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.product-card-image {
+  width: 100%;
+  padding-top: 5.875rem;
+}
+/* ---------------------SECTION TRADEMARKS---------------------- */
+.trademarks-cards {
+  display: flex;
+}
+.trademarks-card {
+  flex-basis: 50%;
+  border: 1px solid #ebebf0;
+  transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
+  cursor: pointer;
+}
+.trademarks-card:hover {
+  border-color: #5c8ee6;
+}
+.trademarks-card:hover .trademarks-card-title {
+  color: #5c8ee6;
+}
+.trademarks-card:hover .trademarks-image {
+  fill: #5c8ee6;
+}
+.trademarks-card-title {
+  grid-area: title;
+  margin: 0;
+  color: rgb(41, 45, 51);
+  font-family: Noto Sans;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  transition: color 0.2s;
+}
+.trademarks-card-text {
+  grid-area: text;
+  color: rgb(130, 138, 153);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 10px;
+}
+.trademarks-image {
+  width: 100%;
+  grid-area: logo;
+  fill: #828a99;
+  transition: fill 0.2s;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
+  }
+  .product-card-title {
+    font-size: 1.7625rem;
+  }
+  .product-card-text {
+    font-size: 1rem;
   }
 }
 @media (max-width: 1460px) {
@@ -335,6 +466,19 @@ body {
   .slider-buttons {
     display: flex;
   }
+  .product-card {
+    flex-basis: 33%;
+    justify-content: space-between;
+  }
+  .product-card-text {
+    width: 100%;
+  }
+  .trademarks-card {
+    grid-template-columns: auto auto;
+  }
+  .trademarks-card-text {
+    font-size: 14px;
+  }
 }
 @media (max-width: 992px) {
   html {
@@ -353,6 +497,9 @@ body {
     flex-grow: 1;
     justify-content: center;
     border: none;
+  }
+  .section-title {
+    font-size: 3.05rem;
   }
   .mobile-menu-toggle {
     width: 80px;
@@ -482,6 +629,22 @@ body {
     justify-content: end;
     margin-top: 1.25rem;
   }
+  .product-card {
+    flex-basis: 50%;
+  }
+  .product-card-content {
+    margin-left: 1.875rem;
+  }
+  .product-card-title {
+    font-size: 2.05rem;
+  }
+  .product-card-text {
+    font-size: 1.2rem;
+    width: auto;
+  }
+  .trademarks-cards {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -511,5 +674,22 @@ body {
   }
   .header-content {
     padding-top: 2rem;
+  }
+  .product-card {
+    flex-basis: 100%;
+    padding-top: 30px;
+  }
+  .product-card-text {
+    width: 90%;
+  }
+  .trademarks-card {
+    grid-template-areas:
+      "logo title"
+      "text text";
+    column-gap: 2.5625rem;
+    padding: 30px;
+  }
+  .trademarks-card-title {
+    padding-top: 25px;
   }
 }
