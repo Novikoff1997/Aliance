@@ -42,7 +42,7 @@ mMenuToggle.addEventListener("click", (event) => {
 const swiper = new Swiper(".swiper", {
   speed: 400,
   slidesPerView: 1,
-  // loop: false,
+  loop: false,
   navigation: {
     nextEl: ".slider-button-next",
     prevEl: ".slider-button-prev",
@@ -86,7 +86,7 @@ const stepsSwiper = new Swiper(".steps-swiper", {
   breakpoints: {
     1: {
       loop: true,
-      slidesPerView: 1.1,
+      slidesPerView: 1.3,
     },
     // when window width is >= 320px
     576: {
