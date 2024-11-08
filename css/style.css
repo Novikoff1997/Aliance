@@ -687,6 +687,26 @@ body {
   .header {
     padding-top: 7.8rem;
   }
+  .navbar {
+    height: 5.7rem;
+  }
+  .header-logo {
+    padding: 0;
+  }
+  .navbar-button {
+    width: 6.6375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-menu-toggle {
+    padding: 2.3rem;
+  }
+  .logo-svg {
+    max-width: 10rem;
+    width: 10.4375rem;
+    height: 100%;
+  }
   .container {
     max-width: 93%;
   }
