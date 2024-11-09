@@ -506,7 +506,7 @@ body {
 }
 .clients-logo-item {
   flex-basis: 33%;
-  border: 1px solid #ebebf0;
+  border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
