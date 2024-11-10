@@ -105,3 +105,14 @@ const stepsSwiper = new Swiper(".steps-swiper", {
     },
   },
 });
+
+const blogSwiper = new Swiper(".blog-swiper", {
+  speed: 400,
+  slidesPerView: 2,
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".blog-slider-button-next",
+    prevEl: ".blog-slider-button-prev",
+  },
+});
