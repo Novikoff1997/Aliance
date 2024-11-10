@@ -235,6 +235,22 @@ body {
   align-items: center;
   height: 100%;
   width: 80px;
+  transition: background 0.2s;
+}
+.button-arrow {
+  transition: transform 0.2s;
+}
+.primary-button-prev:hover {
+  background: rgb(58, 113, 209);
+}
+.primary-button-prev:hover .button-arrow {
+  transform: scale(0.9);
+}
+.primary-button-next:hover {
+  background: rgb(58, 113, 209);
+}
+.primary-button-next:hover .button-arrow {
+  transform: scale(0.9);
 }
 .header-features-text {
   font-size: 1rem;
