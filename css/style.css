@@ -224,7 +224,7 @@ body {
   display: none;
 }
 .primary-buttons-wrapper {
-  height: 40px;
+  height: 60px;
   cursor: pointer;
 }
 .primary-button-prev,
@@ -234,8 +234,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-left: 18px;
-  padding-right: 18px;
+  width: 80px;
 }
 .header-features-text {
   font-size: 1rem;
@@ -521,6 +520,12 @@ body {
   transform: scale(1.1);
 }
 /* ---------------------SECTION BLOG---------------------- */
+.blog {
+  padding-top: 6rem;
+}
+.blog-swiper {
+  padding-top: 1.25rem;
+}
 .blog-card {
   display: flex;
   justify-content: end;
@@ -567,7 +572,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.25rem;
+  padding-top: 1.85rem;
 }
 .blog-slider-buttons {
   display: flex;
@@ -1016,5 +1021,31 @@ body {
   }
   .clients-logo-item:nth-child(9) {
     display: none;
+  }
+  .blog {
+    padding-top: 0.3rem;
+  }
+  .blog-cards {
+    height: 14.95rem;
+  }
+  .blog-card {
+    min-height: 16.7rem;
+    padding: 20px;
+  }
+  .blog-card-image {
+    height: 16.7rem;
+  }
+  .blog-card-title {
+    margin: 0;
+    line-height: 115%;
+  }
+  .blog-card-text {
+    display: none;
+  }
+  .blog-slider-button-prev,
+  .blog-slider-button-next {
+    width: 60px;
+    height: 40px;
+    margin-top: 16px;
   }
 }
