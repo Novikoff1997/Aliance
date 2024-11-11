@@ -594,6 +594,107 @@ body {
   display: flex;
   justify-content: end;
 }
+/* ---------------------SECTION CTA---------------------- */
+.bg-grey {
+  background: rgb(240, 242, 245);
+}
+.section-cta {
+  position: relative;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+  margin-top: 9.375rem;
+}
+.cta-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+  width: 50%;
+}
+.cta-form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.cta-form {
+  max-width: 52.5rem;
+}
+.cta-form-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 1.375rem;
+  margin-bottom: 2.5rem;
+  max-width: 40rem;
+}
+.input-group-wrapper {
+  display: flex;
+  gap: 1.875rem;
+}
+.input-group {
+  position: relative;
+  min-height: 4.125rem;
+  flex-grow: 1;
+  flex-basis: 50%;
+  background-color: #f0f2f5;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.25rem 1.875rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid transparent;
+}
+.input:focus {
+  border: 1px solid rgb(92, 142, 230);
+}
+.input-group-label {
+  position: absolute;
+  cursor: text;
+  top: 1.5rem;
+  left: 1.975rem;
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+}
+.input:focus ~ .input-group-label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+  top: -0.3rem;
+  left: 1.25rem;
+  font-size: 10px;
+  background-color: inherit;
+  padding: 0 10px;
+}
+.cta-form-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.875rem;
+  gap: 30px;
+}
+.cta-form-button {
+  flex-shrink: 0;
+}
+.notify {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.notify-icon {
+  flex-shrink: 0;
+}
+.notify-text {
+  min-width: 23.75rem;
+  margin: 0;
+  color: #828a99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 160%;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -636,6 +737,12 @@ body {
   }
   .header-phone {
     margin-right: 2rem;
+  }
+  .section-cta {
+    margin-top: 2.375rem;
+  }
+  .cta-image {
+    max-width: 40rem;
   }
 }
 @media (max-width: 1200px) {
@@ -684,6 +791,16 @@ body {
   }
   .clients-logo-list {
     grid-template-columns: 100px 160px 100px;
+  }
+  .section-cta {
+    margin-top: 0;
+  }
+  .cta-form {
+    max-width: 43rem;
+  }
+  .cta-image {
+    max-width: 30rem;
+    bottom: 6.125rem;
   }
 }
 @media (max-width: 992px) {
@@ -864,6 +981,15 @@ body {
   }
   .clients-logo-list {
     grid-template-columns: 210px 300px 210px;
+  }
+  .cta-image {
+    display: none;
+  }
+  .cta-form-wrapper {
+    justify-content: center;
+  }
+  .cta-form {
+    max-width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -1063,5 +1189,17 @@ body {
     width: 60px;
     height: 40px;
     margin-top: 16px;
+  }
+  .input-group-wrapper {
+    flex-direction: column;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+  }
+  .cta-form-button {
+    width: 100%;
+  }
+  .notify {
+    width: 100%;
   }
 }
