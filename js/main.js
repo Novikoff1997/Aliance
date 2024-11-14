@@ -126,26 +126,22 @@ const blogSwiper = new Swiper(".blog-swiper", {
 });
 
 const modal = document.querySelector(".modal");
-const modalToggle = document.querySelectorAll("[data-toggle=modal]");
-const modalClose = document.querySelector(".modal-close");
-const modalCloseArea = document.querySelector(".modal-close-area");
-modalToggle.forEach((element) => {
-  element.addEventListener("click", (event) => {
+const modalDialog = document.querySelector(".modal-dialog");
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal" ||
+    event.target.parentNode.dataset.toggle == "modal" ||
+    (!event.composedPath().includes(modalDialog) &&
+      modal.classList.contains("is-open"))
+  ) {
     event.preventDefault();
-    modal.classList.add("is-open");
-    /* Дальше начинает отслеживать нажатие клавиш и при нажатии escape закрывает окно */
-    document.addEventListener("keydown", (e) => {
-      console.log(e.key);
-      if (e.key == "Escape") {
-        modal.classList.remove("is-open");
-      }
-    });
-  });
+    modal.classList.toggle("is-open");
+  }
 });
-modalClose.addEventListener("click", (event) => {
-  event.preventDefault();
-  modal.classList.remove("is-open");
-});
-modalCloseArea.addEventListener("click", function () {
-  modal.classList.remove("is-open");
+
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modal.classList.contains("is-open")) {
+    modal.classList.toggle("is-open");
+  }
 });
