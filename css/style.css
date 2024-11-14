@@ -144,6 +144,7 @@ body {
   display: inline-block;
   cursor: pointer;
   transition: background 0.2s;
+  outline: none;
 }
 .button:hover {
   background: #3a71d1;
@@ -638,6 +639,10 @@ body {
   display: flex;
   gap: 1.875rem;
 }
+.input-group-vartical {
+  display: flex;
+  flex-direction: column;
+}
 .input-group {
   position: relative;
   min-height: 4.125rem;
@@ -652,7 +657,7 @@ body {
   top: 0;
   left: 0;
   padding: 1.25rem 1.875rem;
-  background-color: transparent;
+  background-color: inherit;
   outline: none;
   border: 1px solid rgb(228, 228, 235);
 }
@@ -821,6 +826,93 @@ body {
 .made-in {
   margin-right: 10px;
 }
+/* --------------------- MODAL WINDOW ---------------------- */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(41, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+}
+.modal-close-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal.is-open .modal-dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
+.modal-dialog {
+  background-color: #fff;
+  margin: auto;
+  max-width: 28.75rem;
+  padding: 2.5rem 3.125rem;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-10%);
+  transition: transform 0.3s, opacity 0.3s;
+}
+.modal-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-title {
+  color: rgb(41, 45, 51);
+  font-style: normal;
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0;
+}
+.modal-close {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ebebf0;
+}
+.modal-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+.modal-input {
+  background-color: #fff;
+}
+.modal-input-label {
+  background-color: #fff;
+}
+.modal-input-group {
+  background-color: #fff;
+}
+.modal-form-footer {
+  margin-top: 30px;
+}
+.modal-form-button {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
