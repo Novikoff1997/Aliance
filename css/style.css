@@ -39,6 +39,17 @@ body {
 .navbar-light {
   background: #ffffff;
   color: rgb(41, 45, 51);
+}
+.logo-dark {
+  display: none;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.625rem;
 }
 .icon-phone {
@@ -47,9 +58,6 @@ body {
 .logo-svg {
   width: 8.75rem;
   height: 2.75rem;
-}
-.logo-dark {
-  display: none;
 }
 .header {
   padding-top: 13.3rem;

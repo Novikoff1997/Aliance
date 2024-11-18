@@ -3,16 +3,17 @@ const logoLight = document.querySelector(".logo-light");
 const logoDark = document.querySelector(".logo-dark");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
+const isFront = document.body.classList.contains("front-page");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logoLight.style.display = "none";
-  logoDark.style.display = "block";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logoLight.style.display = "block";
-  logoDark.style.display = "none";
+};
+
+const changeNavHeight = (height) => {
+  navbar.style.height = height;
 };
 
 //Функция открывания меню
@@ -31,7 +32,10 @@ const closeMenu = (event) => {
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  }
 });
 
 mMenuToggle.addEventListener("click", (event) => {
