@@ -63,8 +63,9 @@ body {
   padding-top: 13.3rem;
 }
 .header-page {
-  padding-top: 9rem;
-  padding-bottom: 3.125rem;
+  margin-top: 95px;
+  padding-top: 3rem;
+  padding-bottom: 2.825rem;
   position: relative;
   color: rgb(41, 45, 51);
 }
@@ -1647,5 +1648,8 @@ body {
   }
   .breadcrumbs-item {
     margin-bottom: 10px;
+  }
+  .header-page-bg-image {
+    background-image: url(../img/header-bg-image-mobile.jpg);
   }
 }
