@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>О компании - Aliance</title>
+    <title>Собственные торговые марки - Aliance</title>
   </head>
   <body>
     <div class="mobile-menu">
@@ -131,13 +131,13 @@
       <div class="container">
         <!-- <img src="./img/header-page-image.jpg" alt="" class="header-page-image"> -->
         <div class="seporator header-seporator"></div>
-        <h1 class="header-page-title">о компании</h1>
+        <h1 class="header-page-title">Собственные торговые марки</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a href="" class="breadcrumbs-item-link">Главная</a>
+            <a href="/" class="breadcrumbs-item-link">Главная</a>
           </li>
           <li class="breadcrumbs-item active">
-            <a href="" class="breadcrumbs-item-link">О компании</a>
+            <a href="contract-product.php" class="breadcrumbs-item-link">Собственные торговые марки</a>
           </li>
         </ul>
       </div>

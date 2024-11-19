@@ -100,16 +100,16 @@
           <a href="about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="contract-product.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="contacts.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -488,7 +488,7 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper blog-cards">
             <!-- Slides -->
-            <a href="#" class="swiper-slide blog-card">
+            <a href="blog-post.php" class="swiper-slide blog-card">
               <img src="./img/blog-img/blog-img.jpg" alt="blog-image" class="blog-card-image" />
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
@@ -496,7 +496,7 @@
                 равной степени предоставлены...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="blog-post.php" class="swiper-slide blog-card">
               <img src="./img/blog-img/blog-img2.jpg" alt="blog-image" class="blog-card-image" />
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">
@@ -504,7 +504,7 @@
                 элементы. Безусловно, высокотехнологичная...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="blog-post.php" class="swiper-slide blog-card">
               <img src="./img/blog-img/blog-img.jpg" alt="blog-image" class="blog-card-image" />
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
@@ -515,7 +515,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="#" class="button-link">Весь блог</a>
+            <a href="blog.php" class="button-link">Весь блог</a>
             <div class="blog-slider-buttons primary-buttons-wrapper">
               <div class="blog-slider-button-prev primary-button-prev">
                 <svg class="icon button-arrow" width="26px" height="14px">

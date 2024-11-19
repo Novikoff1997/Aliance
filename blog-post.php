@@ -127,17 +127,20 @@
       </button>
     </nav>
     <!-- /.navbar -->
-     <header class="header-page">
+     <header class="header-page header-page-bg-image">
       <div class="container">
         <!-- <img src="./img/header-page-image.jpg" alt="" class="header-page-image"> -->
         <div class="seporator header-seporator"></div>
-        <h1 class="header-page-title">о компании</h1>
+        <h1 class="header-page-title">Современная методология разработки одухотворила всех причастных</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a href="" class="breadcrumbs-item-link">Главная</a>
           </li>
+          <li class="breadcrumbs-item">
+            <a href="" class="breadcrumbs-item-link">Блог</a>
+          </li>
           <li class="breadcrumbs-item active">
-            <a href="" class="breadcrumbs-item-link">О компании</a>
+            <a href="" class="breadcrumbs-item-link">Современная методология разработки одухотворила всех причастных</a>
           </li>
         </ul>
       </div>
