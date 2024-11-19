@@ -2,7 +2,7 @@
       <div class="bg-grey section-cta">
         <img src="./img/cta-img/cta-image.png" alt="call to action" class="cta-image" />
         <div class="cta-form-wrapper container">
-          <form action="#" class="cta-form">
+          <form action="handler.php" method="post" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
             <p class="cta-form-text">
               Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
@@ -10,11 +10,11 @@
             </p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input id="user-name" type="text" class="input" placeholder=" " />
+                <input name="username" id="user-name" type="text" class="input" placeholder=" "required maxlength="100" />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input id="user-phone" type="tel" class="input" placeholder=" " />
+                <input name="userphone" id="user-phone" type="tel" class="input" placeholder=" "required maxlength="30" />
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
@@ -163,14 +163,14 @@
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы
           и поможем даже в самых сложных случаях!
         </p>
-        <form action="" class="modal-form">
+        <form action="handler.php" class="modal-form" method="post">
           <div class="input-group-wrapper input-group-vartical">
             <div class="input-group modal-input-group">
-              <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " />
+              <input name="username" id="modal-user-name" type="text" class="input modal-input" placeholder=" " required maxlength="100" />
               <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
             </div>
             <div class="input-group modal-input-group">
-              <input id="modal-user-phone" type="tel" class="input modal-input" placeholder=" " />
+              <input name="userphone" id="modal-user-phone" type="tel" class="input modal-input" placeholder=" " required maxlength="30" />
               <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
             </div>
           </div>
