@@ -119,7 +119,7 @@
         <a href="tel:+7(499)6861014" class="header-phone-link">+7 (499) 686-10-14</a>
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="16px" height="17px">
           <use href="./img/sprite.svg#icon-phone"></use>
         </svg>
@@ -137,7 +137,7 @@
             простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа
             существующих паттернов поведения.
           </p>
-          <div class="header-button button">Подробнее о компании</div>
+          <button class="header-button button">Подробнее о компании</button>
         </div>
         <!-- /.header-content -->
 

@@ -1029,15 +1029,6 @@ body {
   margin-bottom: 24px;
   width: 100%;
 }
-.modal-success {
-  display: none;
-}
-.open {
-  display: block;
-}
-.close {
-  display: none;
-}
 .modal-success .modal-dialog-header {
   flex-direction: column;
   align-items: end;

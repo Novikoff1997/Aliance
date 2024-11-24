@@ -149,11 +149,11 @@
       </div>
       <!-- /.container -->
     </footer>
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog modal-dialog-form">
         <div class="modal-dialog-header">
           <h2 class="modal-title">Есть вопросы?</h2>
-          <a href="" class="modal-close" data-toggle="modal">
+          <a href="" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
             <svg class="close-icon" width="24" height="24">
               <use href="./img/sprite.svg#close"></use>
             </svg>
@@ -189,9 +189,11 @@
           </div>
         </form>
       </div>
-      <div class="modal-dialog modal-success">
+    </div>
+    <div class="modal" id="alert-modal">
+    <div class="modal-dialog modal-success">
         <div class="modal-dialog-header">
-          <a href="" class="modal-close" data-toggle="modal">
+          <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
             <svg class="close-icon" width="24" height="24">
               <use href="./img/sprite.svg#close"></use>
             </svg>

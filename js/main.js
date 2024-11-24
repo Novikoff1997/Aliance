@@ -131,34 +131,31 @@ const blogSwiper = new Swiper(".blog-swiper", {
   },
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
+let currentModal; // Текущее модальное окно
+let modalDialog; // Белое диалоговое окно
+let alertModal = document.querySelector("#alert-modal"); // Окно с предупреждением
 
-const modalSuccess = (event) => {
-  document.querySelector(".modal-dialog-form").classList.add("close");
-  document.querySelector(".modal-success").classList.add("open");
-};
-const modalSuccessClose = (event) => {
-  document.querySelector(".modal-dialog-form").classList.remove("close");
-  document.querySelector(".modal-success").classList.remove("open");
-};
-
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) &&
-      modal.classList.contains("is-open"))
-  ) {
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // Пререключатель модальных окон.
+modalButtons.forEach((button) => {
+  /* Клик по переключателю */
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    modal.classList.toggle("is-open");
-    modalSuccessClose();
-  }
+    /* Определяем текущее открытое окно */
+    currentModal = document.querySelector(button.dataset.target);
+    /* Открываем текущее окно */
+    currentModal.classList.toggle("is-open");
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    currentModal.addEventListener("click", (event) => {
+      if (!event.composedPath().includes(modalDialog)) {
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
 });
 
 document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    currentModal.classList.toggle("is-open");
   }
 });
 
@@ -194,8 +191,16 @@ forms.forEach((form) => {
           body: formData,
         }).then((responce) => {
           if (responce.ok) {
-            modalSuccess();
             thisForm.reset();
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
           } else {
             alert("Ошибка. Текст ошибки:  ".responce.statusText);
           }
