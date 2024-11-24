@@ -78,9 +78,13 @@ body {
   margin-top: 26px;
 }
 .header-page-image {
+  display: none;
   position: absolute;
   bottom: 0;
   right: 12%;
+}
+.product_image {
+  display: block;
 }
 .header-page-bg-image {
   background-image: url(../img/header-bg-image.jpg);
