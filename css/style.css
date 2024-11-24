@@ -292,6 +292,9 @@ body {
   color: #fff;
   position: relative;
 }
+.header-features-template {
+  color: #292d33;
+}
 .header-features-item {
   height: auto;
   padding: 2rem 3.125rem;
@@ -311,6 +314,11 @@ body {
   height: 100%;
   flex-basis: 50%;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  fill: #fff;
+}
+.slider-button-prev-dark,
+.slider-button-next-dark {
+  fill: #292d33;
 }
 .steps-slider-buttons {
   display: none;

@@ -180,12 +180,12 @@
 
           <!-- If we need navigation buttons -->
           <div class="slider-buttons">
-            <div class="slider-button-prev">
+            <div class="slider-button-prev light">
               <svg class="icon" width="36px" height="24px">
                 <use href="./img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
-            <div class="slider-button-next">
+            <div class="slider-button-next light">
               <svg class="icon" width="36px" height="24px">
                 <use href="./img/sprite.svg#arrow-next"></use>
               </svg>
