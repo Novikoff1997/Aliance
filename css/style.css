@@ -771,6 +771,19 @@ body {
   background-color: inherit;
   padding: 0 10px;
 }
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transform: translateY(-50%);
+  display: inline-block;
+  background-color: inherit;
+  font-size: 10px;
+  padding: 0 5px;
+}
 .cta-form-footer {
   display: flex;
   align-items: center;
@@ -1016,7 +1029,29 @@ body {
   margin-bottom: 24px;
   width: 100%;
 }
-
+.modal-success {
+  display: none;
+}
+.open {
+  display: block;
+}
+.close {
+  display: none;
+}
+.modal-success .modal-dialog-header {
+  flex-direction: column;
+  align-items: end;
+}
+.modal-success .modal-close {
+  position: absolute;
+  top: 3rem;
+}
+.modal-button-success {
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;

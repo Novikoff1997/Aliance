@@ -10,11 +10,11 @@
             </p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input name="username" id="user-name" type="text" class="input" placeholder=" "required maxlength="100" />
+                <input name="username" id="user-name" type="text" class="input" placeholder=" "/>
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input name="userphone" id="user-phone" type="tel" class="input" placeholder=" "required maxlength="30" />
+                <input name="userphone" id="user-phone" type="tel" class="input phone-mask" placeholder=""/>
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
@@ -150,7 +150,7 @@
       <!-- /.container -->
     </footer>
     <div class="modal">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-form">
         <div class="modal-dialog-header">
           <h2 class="modal-title">Есть вопросы?</h2>
           <a href="" class="modal-close" data-toggle="modal">
@@ -166,11 +166,11 @@
         <form action="handler.php" class="modal-form" method="post">
           <div class="input-group-wrapper input-group-vartical">
             <div class="input-group modal-input-group">
-              <input name="username" id="modal-user-name" type="text" class="input modal-input" placeholder=" " required maxlength="100" />
+              <input name="username" id="modal-user-name" type="text" class="input modal-input" placeholder=" " />
               <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
             </div>
             <div class="input-group modal-input-group">
-              <input name="userphone" id="modal-user-phone" type="tel" class="input modal-input" placeholder=" " required maxlength="30" />
+              <input name="userphone" id="modal-user-phone" type="tel" class="input modal-input phone-mask" placeholder=" " />
               <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
             </div>
           </div>
@@ -189,6 +189,24 @@
           </div>
         </form>
       </div>
+      <div class="modal-dialog modal-success">
+        <div class="modal-dialog-header">
+          <a href="" class="modal-close" data-toggle="modal">
+            <svg class="close-icon" width="24" height="24">
+              <use href="./img/sprite.svg#close"></use>
+            </svg>
+          </a>
+          <img class="modal-success-img" src="img/modal-success-img.jpg" alt="">
+        </div>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <p class="modal-text">
+          Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в   самых сложных случаях!
+        </p>
+        <a class="button modal-button-success" href="/">Вернуться на гланую</a>
+      </div>
     </div>
+    <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
+    
