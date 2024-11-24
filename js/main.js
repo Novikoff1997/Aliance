@@ -184,10 +184,6 @@ forms.forEach((form) => {
         rule: "required",
         errorMessage: "Укажите телефон",
       },
-      {
-        rule: "number",
-        errorMessage: "Укажите телефон",
-      },
     ])
     .onSuccess((event) => {
       const thisForm = event.target;
@@ -199,6 +195,7 @@ forms.forEach((form) => {
         }).then((responce) => {
           if (responce.ok) {
             modalSuccess();
+            thisForm.reset();
           } else {
             alert("Ошибка. Текст ошибки:  ".responce.statusText);
           }
