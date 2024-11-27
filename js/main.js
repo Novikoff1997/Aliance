@@ -57,22 +57,21 @@ const swiper = new Swiper(".swiper", {
     1: {
       loop: true,
       slidesPerView: 1,
-      centeredSlides: true,
+      // centeredSlides: true,
     },
     // when window width is >= 320px
     576: {
-      slidesPerView: 2,
-      centeredSlides: true,
+      slidesPerView: 1,
       loop: true,
     },
     // when window width is >= 480px
     770: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       loop: true,
     },
     // when window width is >= 640px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       loop: true,
     },
     1200: {

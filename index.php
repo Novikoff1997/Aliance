@@ -276,7 +276,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="300" alt="avto-hit">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="avto-hit">
             </picture>
           </div>
           <div class="product-card">
@@ -290,7 +290,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/bit-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
-              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="300" alt="bit-him">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="bit-him">
             </picture>
           </div>
           <div class="product-card">
@@ -301,7 +301,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -314,7 +314,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -325,7 +325,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="300"
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="auto" height="auto"
               alt="avto-him">
             </picture>
           </div>
@@ -340,7 +340,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/bit-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
-              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="300" alt="bit-him">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="auto" alt="bit-him">
             </picture>
           </div>
         </div>
@@ -377,10 +377,10 @@
     </section>
     <!-- /.trdemarks -->
     <section class="section founder">
-      <picture class="founder-photo">
+      <picture>
         <source type="image/webp" srcset="./img/founder.webp">
         <source type="image/jpeg" srcset="./img/founder.jpg">
-        <img src="./img/founder.jpg" alt="founder">
+        <img src="./img/founder.jpg" alt="founder" class="founder-photo">
       </picture>
       <div class="container">
         <div class="founder-content-wrapper">
@@ -559,10 +559,10 @@
           <div class="swiper-wrapper blog-cards">
             <!-- Slides -->
             <a href="blog-post.php" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
+              <picture>
                 <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
-                <img src="./img/blog-img/blog-img.jpg" alt="blog-img">
+                <img src="./img/blog-img/blog-img.jpg" alt="blog-img" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
@@ -571,10 +571,10 @@
               </p>
             </a>
             <a href="blog-post.php" class="swiper-slide blog-card">
-            <picture class="blog-card-image">
+            <picture>
                 <source type="image/webp" srcset="./img/blog-img/blog-img2.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img2.jpg">
-                <img src="./img/blog-img/blog-img2.jpg" alt="blog-img">
+                <img src="./img/blog-img/blog-img2.jpg" alt="blog-img" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">
@@ -583,10 +583,10 @@
               </p>
             </a>
             <a href="blog-post.php" class="swiper-slide blog-card">
-            <picture class="blog-card-image">
+            <picture>
                 <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
-                <img src="./img/blog-img/blog-img.jpg" alt="blog-img">
+                <img src="./img/blog-img/blog-img.jpg" alt="blog-img" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
@@ -616,6 +616,226 @@
       </div>
     </section>
     <!-- /.blog -->
-    <?php require_once('templates/footer.php') ?>
+    <section class="section cta">
+      <div class="bg-grey section-cta">
+        <picture>
+          <source type="image/webp" srcset="./img/cta-img/cta-image.webp">
+          <source type="image/jpeg" srcset="./img/cta-img/cta-image.jpg">
+          <img src="./img/cta-img/cta-image.jpg" alt="footer-img" class="cta-image">
+        </picture> 
+        <div class="cta-form-wrapper container">
+          <form action="handler.php" method="post" class="cta-form">
+            <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
+            <p class="cta-form-text">
+              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
+              вопросы и поможем даже в самых сложных случаях!
+            </p>
+            <div class="input-group-wrapper">
+              <div class="input-group">
+                <input name="username" id="user-name" type="text" class="input" placeholder=" "/>
+                <label class="input-group-label" for="user-name">Имя</label>
+              </div>
+              <div class="input-group">
+                <input name="userphone" id="user-phone" type="tel" class="input phone-mask" placeholder=""/>
+                <label class="input-group-label" for="user-phone">Номер телефона</label>
+              </div>
+            </div>
+            <!-- /.input-group-wrapper -->
+            <div class="cta-form-footer">
+              <button type="submit" class="button cta-form-button">Оставить заявку</button>
+              <div class="notify">
+                <svg class="notify-icon" width="12px" height="16px">
+                  <use href="./img/sprite.svg#notify-icon"></use>
+                </svg>
+                <p class="notify-text">
+                  Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
+                  конфиденциальность информации!
+                </p>
+              </div>
+            </div>
+            <!-- /.cta-form-footer -->
+          </form>
+        </div>
+        <!-- /.cta-form-wrapper -->
+      </div>
+    </section>
+    <!-- /.cta -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <svg class="logo-svg footer-logo">
+            <use href="./img/sprite.svg#logo-dark"></use>
+          </svg>
+          <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
+          <div class="footer-info">
+            <svg class="address-icon" width="12px" height="16px">
+              <use href="./img/sprite.svg#address-icon"></use>
+            </svg>
+            <address class="footer-info-address">г. Мосвка, Холодильный пер. 4к1с8</address>
+          </div>
+          <!-- /.footer-info -->
+          <div class="footer-info">
+            <svg class="email-icon" width="16px" height="12px">
+              <use href="./img/sprite.svg#mail-icon"></use>
+            </svg>
+            <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email">a.dragunov@tdaliance.ru</a>
+          </div>
+          <!-- /.footer-info -->
+          <div class="footer-social">
+            <a class="footer-social-link" href="">
+              <svg class="footer-social-icon" width="19px" height="12px">
+                <use href="./img/sprite.svg#vk-icon"></use>
+              </svg>
+            </a>
+            <a class="footer-social-link" href="">
+              <svg class="footer-social-icon" width="13px" height="13px">
+                <use href="./img/sprite.svg#inst-icon"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- /.footer-top -->
+      </div>
+      <hr color="#ebebf0" class="footer-seporator" />
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="footer-menu-wrapper">
+            <h2 class="footer-menu-title">Контрактное производство</h2>
+            <ul class="footer-menu-list footer-menu-column-2">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Бытовая химия</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Косметическая продукция</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-menu-wrapper -->
+          <div class="footer-menu-wrapper">
+            <h2 class="footer-menu-title">Собственные марки</h2>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-menu-wrapper -->
+          <div class="footer-menu-wrapper">
+            <ul class="footer-menu-list footer-menu-list-pad-0">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-menu-wrapper -->
+        </div>
+      </div>
+      <!-- /.container -->
+      <hr color="#ebebf0" class="footer-seporator" />
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-legal">
+            <p class="footer-copyright">&copy; <?php echo date('Y') ?> «Aliance Production». Все права защищены.</p>
+            <a href="policy.php" class="footer-policy">Политики конфиденциальности</a>
+          </div>
+          <!-- /.footer-legal -->
+          <div class="footer-author">
+            <span class="made-in">Сделано в</span>
+            <svg width="52px" height="11px">
+              <use href="./img/sprite.svg#ruso"></use>
+            </svg>
+          </div>
+        </div>
+        <!-- /.footer-wrapper -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <div class="modal" id="feedback-modal">
+      <div class="modal-dialog modal-dialog-form">
+        <div class="modal-dialog-header">
+          <h2 class="modal-title">Есть вопросы?</h2>
+          <a href="" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
+            <svg class="close-icon" width="24" height="24">
+              <use href="./img/sprite.svg#close"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы
+          и поможем даже в самых сложных случаях!
+        </p>
+        <form action="handler.php" class="modal-form" method="post">
+          <div class="input-group-wrapper input-group-vartical">
+            <div class="input-group modal-input-group">
+              <input name="username" id="modal-user-name" type="text" class="input modal-input" placeholder=" " />
+              <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
+            </div>
+            <div class="input-group modal-input-group">
+              <input name="userphone" id="modal-user-phone" type="tel" class="input modal-input phone-mask" placeholder=" " />
+              <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
+            </div>
+          </div>
+          <!-- /.input-group-wrapper -->
+          <div class="modal-form-footer">
+            <button type="submit" class="button modal-form-button">Оставить заявку</button>
+            <div class="notify">
+              <svg class="notify-icon" width="12px" height="16px">
+                <use href="./img/sprite.svg#notify-icon"></use>
+              </svg>
+              <p class="notify-text">
+                Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
+                конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="alert-modal">
+    <div class="modal-dialog modal-success">
+        <div class="modal-dialog-header">
+          <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+            <svg class="close-icon" width="24" height="24">
+              <use href="./img/sprite.svg#close"></use>
+            </svg>
+          </a>
+          <picture>
+            <source type="image/webp" srcset="./img/modal-success-img.webp">
+            <source type="image/jpeg" srcset="./img/modal-success-img.jpg">
+            <img src="./img/modal-success-img.jpg" width="360" height="310" alt="success-img" class="modal-success-img">
+          </picture> 
+        </div>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <p class="modal-text">
+          Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в   самых сложных случаях!
+        </p>
+        <a class="button modal-button-success" href="/">Вернуться на гланую</a>
+      </div>
+    </div>
+    <!-- /.modal -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
