@@ -3,7 +3,7 @@
         <picture class="cta-image">
           <source type="image/webp" srcset="./img/cta-img/cta-image.webp">
           <source type="image/jpeg" srcset="./img/cta-img/cta-image.jpg">
-          <img src="./img/cta-img/cta-image.jpg">
+          <img src="./img/cta-img/cta-image.jpg" alt="footer-img">
         </picture> 
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="post" class="cta-form">
@@ -205,7 +205,7 @@
           <picture class="modal-success-img">
             <source type="image/webp" srcset="./img/modal-success-img.webp">
             <source type="image/jpeg" srcset="./img/modal-success-img.jpg">
-            <img src="./img/modal-success-img.jpg">
+            <img src="./img/modal-success-img.jpg" width="360" height="310" alt="success-img">
           </picture> 
         </div>
         <h2 class="modal-title">Спасибо за заявку!</h2>

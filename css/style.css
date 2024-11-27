@@ -468,7 +468,6 @@ body {
 .product-card-title {
   color: #292d33;
   margin: 0;
-
   font-size: 28px;
   font-weight: 400;
   line-height: 160%;
@@ -480,14 +479,13 @@ body {
   margin: 0;
   padding-top: 0.8rem;
   color: #828a99;
-
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
 }
 .product-card-image {
   width: 100%;
-  padding-top: 6.675rem;
+  margin-top: 6.675rem;
 }
 /* ---------------------SECTION TRADEMARKS---------------------- */
 .trademarks {

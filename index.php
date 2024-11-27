@@ -68,12 +68,12 @@
       </div>
       <!-- /.mobile-info -->
       <div class="mobile-social">
-        <a class="mobile-social-link" href="">
+        <a class="mobile-social-link" href="" aria-label="Перейти в ВК">
           <svg class="icon-phone" width="19px" height="12px">
             <use href="./img/sprite.svg#vk-icon"></use>
           </svg>
         </a>
-        <a class="mobile-slink" href="">
+        <a class="mobile-slink" href="#" aria-label="Перейти в инстаграм">
           <svg class="icon-phone" width="16px" height="16px">
             <use href="./img/sprite.svg#inst-icon"></use>
           </svg>
@@ -87,7 +87,7 @@
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
       </a>
-      <a href="./" class="header-logo">
+      <a href="./" class="header-logo" aria-label="Перейти на гравную страницу">
         <svg class="logo-svg logo-light">
           <use href="./img/sprite.svg#logo-light"></use>
         </svg>
@@ -271,7 +271,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="300" alt="avto-hit">
             </picture>
           </div>
           <div class="product-card">
@@ -285,7 +285,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/bit-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
-              <img src="./img/products-img/bit-him.jpg" class="product-card-image">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="300" alt="bit-him">
             </picture>
           </div>
           <div class="product-card">
@@ -296,7 +296,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -309,7 +309,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -320,7 +320,8 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="300"
+              alt="avto-him">
             </picture>
           </div>
           <div class="product-card">
@@ -334,7 +335,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/bit-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
-              <img src="./img/products-img/bit-him.jpg" class="product-card-image">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="300" alt="bit-him">
             </picture>
           </div>
         </div>
@@ -374,7 +375,7 @@
       <picture class="founder-photo">
         <source type="image/webp" srcset="./img/founder.webp">
         <source type="image/jpeg" srcset="./img/founder.jpg">
-        <img src="./img/founder.jpg">
+        <img src="./img/founder.jpg" alt="founder">
       </picture>
       <div class="container">
         <div class="founder-content-wrapper">
@@ -478,63 +479,63 @@
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
               </picture>  
             </a>
           </div>
@@ -556,7 +557,7 @@
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
-                <img src="./img/blog-img/blog-img.jpg">
+                <img src="./img/blog-img/blog-img.jpg" alt="blog-img">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
@@ -568,7 +569,7 @@
             <picture class="blog-card-image">
                 <source type="image/webp" srcset="./img/blog-img/blog-img2.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img2.jpg">
-                <img src="./img/blog-img/blog-img2.jpg">
+                <img src="./img/blog-img/blog-img2.jpg" alt="blog-img">
               </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">
@@ -580,7 +581,7 @@
             <picture class="blog-card-image">
                 <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
                 <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
-                <img src="./img/blog-img/blog-img.jpg">
+                <img src="./img/blog-img/blog-img.jpg" alt="blog-img">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
