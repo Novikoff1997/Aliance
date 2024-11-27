@@ -450,7 +450,7 @@ body {
   flex-direction: column;
   cursor: pointer;
   padding-top: 40px;
-  flex-basis: 33%;
+  max-width: 33%;
   flex-grow: 1;
   border: 1px solid #ebebf0;
   transition: border 0.2s;

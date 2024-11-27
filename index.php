@@ -268,7 +268,11 @@
                 Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.
               </p>
             </div>
-            <img class="product-card-image" src="./img/products-img/avto-him.jpg" alt="avto-him" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/avto-him.webp">
+              <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image">
+            </picture>
           </div>
           <div class="product-card">
             <div class="product-card-content">
@@ -278,14 +282,22 @@
                 разнесены на независимые элементы.
               </p>
             </div>
-            <img class="product-card-image" src="./img/products-img/bit-him.jpg" alt="bit-him" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/bit-him.webp">
+              <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image">
+            </picture>
           </div>
           <div class="product-card">
             <div class="product-card-content">
               <h3 class="product-card-title">Дезинфицирующие средства</h3>
               <p class="product-card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
-            <img class="product-card-image" src="./img/products-img/dezinfect.jpg" alt="bit-him" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
+              <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image">
+            </picture>
           </div>
           <div class="product-card">
             <div class="product-card-content">
@@ -294,14 +306,22 @@
                 Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.
               </p>
             </div>
-            <img class="product-card-image" src="./img/products-img/dezinfect.jpg" alt="bit-him" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
+              <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image">
+            </picture>
           </div>
           <div class="product-card">
             <div class="product-card-content">
               <h3 class="product-card-title">Косметическая продукция</h3>
               <p class="product-card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
-            <img class="product-card-image" src="./img/products-img/avto-him.jpg" alt="cosm-prod" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/avto-him.webp">
+              <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image">
+            </picture>
           </div>
           <div class="product-card">
             <div class="product-card-content">
@@ -311,7 +331,11 @@
                 разнесены на независимые элементы.
               </p>
             </div>
-            <img class="product-card-image" src="./img/products-img/bit-him.jpg" alt="cosm-prod" />
+            <picture>
+              <source type="image/webp" srcset="./img/products-img/bit-him.webp">
+              <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image">
+            </picture>
           </div>
         </div>
       </div>
@@ -347,7 +371,11 @@
     </section>
     <!-- /.trdemarks -->
     <section class="section founder">
-      <img src="./img/founder.jpg" alt="founder" class="founder-photo" />
+    <picture class="founder-photo">
+      <source type="image/webp" srcset="./img/founder.webp">
+      <source type="image/jpeg" srcset="./img/founder.jpg">
+      <img src="./img/founder.jpg">
+    </picture>
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
@@ -447,37 +475,73 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
           </div>
           <!-- /.clients-logo -->
         </div>
         <!-- /.clients-wrapper -->
-      </div>
+      <div>
     </section>
     <!-- /.clients -->
     <section class="section blog">
@@ -489,7 +553,11 @@
           <div class="swiper-wrapper blog-cards">
             <!-- Slides -->
             <a href="blog-post.php" class="swiper-slide blog-card">
-              <img src="./img/blog-img/blog-img.jpg" alt="blog-image" class="blog-card-image" />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
+                <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
+                <img src="./img/blog-img/blog-img.jpg">
+              </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
                 Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в
@@ -497,7 +565,11 @@
               </p>
             </a>
             <a href="blog-post.php" class="swiper-slide blog-card">
-              <img src="./img/blog-img/blog-img2.jpg" alt="blog-image" class="blog-card-image" />
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-img/blog-img2.webp">
+                <source type="image/jpeg" srcset="./img/blog-img/blog-img2.jpg">
+                <img src="./img/blog-img/blog-img2.jpg">
+              </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">
                 Сложно сказать, почему элементы политического процесса функционально разнесены на независимые
@@ -505,7 +577,11 @@
               </p>
             </a>
             <a href="blog-post.php" class="swiper-slide blog-card">
-              <img src="./img/blog-img/blog-img.jpg" alt="blog-image" class="blog-card-image" />
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-img/blog-img.webp">
+                <source type="image/jpeg" srcset="./img/blog-img/blog-img.jpg">
+                <img src="./img/blog-img/blog-img.jpg">
+              </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">
                 Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в
