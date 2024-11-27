@@ -70,36 +70,71 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="./img/client-img/client-img.png" alt="" class="clients-logo" />
+              <picture class="client-logo">
+                <source type="image/webp" srcset="./img/client-img/client-img.webp">
+                <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
+                <img src="./img/client-img/client-img.jpg">
+              </picture>  
             </a>
           </div>
           <!-- /.clients-logo -->
         </div>
         <!-- /.clients-wrapper -->
-      </div>
+      <div>
     </section>
-    <!-- /.clients -->

@@ -371,11 +371,11 @@
     </section>
     <!-- /.trdemarks -->
     <section class="section founder">
-    <picture class="founder-photo">
-      <source type="image/webp" srcset="./img/founder.webp">
-      <source type="image/jpeg" srcset="./img/founder.jpg">
-      <img src="./img/founder.jpg">
-    </picture>
+      <picture class="founder-photo">
+        <source type="image/webp" srcset="./img/founder.webp">
+        <source type="image/jpeg" srcset="./img/founder.jpg">
+        <img src="./img/founder.jpg">
+      </picture>
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
