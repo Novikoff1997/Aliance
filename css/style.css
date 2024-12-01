@@ -1,13 +1,22 @@
-* {
-  overflow-wrap: break-word;
-  box-sizing: border-box;
-  /* margin: 0; */
-}
+@import url(swiper-bundle.min.css);
+@import url(normalize.css);
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  overflow-wrap: break-word;
+  box-sizing: border-box;
 }
 html {
   font-size: 16px;
@@ -152,7 +161,7 @@ body {
   background-image: url(../img/header-bg.webp);
 }
 .header-image {
-  background-image: url(../img/header-bg.png);
+  background-image: url(../img/header-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position: center left -0.625rem; */
@@ -1696,5 +1705,11 @@ body {
   }
   .header-page-bg-image {
     background-image: url(../img/header-bg-image-mobile.jpg);
+  }
+  .webp .header-image {
+    background-image: url(../img/header-bg-mobile.webp);
+  }
+  .header-image {
+    background-image: url(../img/header-bg-mobile.jpg);
   }
 }

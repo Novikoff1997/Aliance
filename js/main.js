@@ -278,3 +278,25 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+// Функция замены фавикона в зависимости от темы браузера работает не во всех браузерах
+function changeFavicon() {
+  const favicon = document.getElementById("favicon");
+  const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  let faviconPath;
+
+  if (isDarkMode) {
+    faviconPath = "favicon-light.png"; // для тёмной темы
+  } else {
+    faviconPath = "favicon.png"; // для светлой темы
+  }
+
+  // Добавляем уникальный параметр к URL, чтобы избежать кэширования
+  favicon.href = faviconPath + "?v=" + new Date().getTime();
+}
+
+// Слушаем изменения темы
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", changeFavicon);
+
+// Изначально вызываем функцию для установки правильного фавикона
+changeFavicon();
