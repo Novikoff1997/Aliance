@@ -269,7 +269,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="avto-hit">
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="auto" alt="avto-hit">
             </picture>
           </div>
           <div class="product-card">
@@ -283,7 +283,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/bit-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/bit-him.jpg">
-              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="bit-him">
+              <img src="./img/products-img/bit-him.jpg" class="product-card-image" width="480" height="300" alt="bit-him">
             </picture>
           </div>
           <div class="product-card">
@@ -294,7 +294,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="dezinfect">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -307,7 +307,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/dezinfect.webp">
               <source type="image/jpeg" srcset="./img/products-img/dezinfect.jpg">
-              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="auto" height="auto" alt="dezinfect">
+              <img src="./img/products-img/dezinfect.jpg" class="product-card-image" width="480" height="300" alt="dezinfect">
             </picture>
           </div>
           <div class="product-card">
@@ -318,7 +318,7 @@
             <picture>
               <source type="image/webp" srcset="./img/products-img/avto-him.webp">
               <source type="image/jpeg" srcset="./img/products-img/avto-him.jpg">
-              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="auto" height="auto"
+              <img src="./img/products-img/avto-him.jpg" class="product-card-image" width="480" height="300"
               alt="avto-him">
             </picture>
           </div>
