@@ -56,7 +56,7 @@ const swiper = new Swiper(".swiper", {
   breakpoints: {
     1: {
       loop: true,
-      slidesPerView: 1,
+      slidesPerView: 1.3,
       // centeredSlides: true,
     },
     // when window width is >= 320px
@@ -114,11 +114,30 @@ const stepsSwiper = new Swiper(".steps-swiper", {
 const blogSwiper = new Swiper(".blog-swiper", {
   speed: 400,
   slidesPerView: 2,
+  autoHeight: true,
   loop: true,
   spaceBetween: 30,
   navigation: {
     nextEl: ".blog-slider-button-next",
     prevEl: ".blog-slider-button-prev",
+  },
+  breakpoints: {
+    770: {
+      slidesPerView: 2,
+    },
+    1: {
+      slidesPerView: 1,
+    },
+  },
+});
+const researchSwiper = new Swiper(".research-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".research-button-next",
+    prevEl: ".research-button-prev",
   },
   breakpoints: {
     770: {

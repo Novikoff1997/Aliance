@@ -1,7 +1,5 @@
 <section class="section section-products">
       <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">Контрактное производство</h2>
         <div class="section-product-cards">
           <div class="product-card">
             <div class="product-card-content">
