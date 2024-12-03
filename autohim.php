@@ -7,7 +7,11 @@ $product_image = 'product_image';
 <section class="section autohim-production">
   <div class="container">
     <div class="autohim-production-contant-wrapper">
-      <img src="./img/autohim/autohim-prod.jpg" alt="autohim-prod-img" class="autohim-production-img">
+      <picture>
+        <source type="image/webp" srcset="./img/autohim/autohim-prod.webp">
+        <source type="image/jpeg" srcset="./img/autohim/autohim-prod.jpg">
+        <img src="./img/autohim/autohim-prod.jpg" class="autohim-production-img" width="600" height="750" alt="autohim-prod-img">
+      </picture>
       <div class="autohim-production-content">
         <div class="seporator"></div>
         <h2 class="section-title">Контрактное производство автомобильной химии</h2>
@@ -84,7 +88,11 @@ $product_image = 'product_image';
       </ul>
     </div>
   </div>
-  <img src="./img/autohim/manufacture-autohim.jpg" alt="manufacture-autohim" class="manufacture-autohim-img">
+  <picture>
+    <source type="image/webp" srcset="./img/autohim/manufacture-autohim.webp">
+    <source type="image/jpeg" srcset="./img/autohim/manufacture-autohim.jpg">
+    <img src="./img/autohim/manufacture-autohim.jpg" class="manufacture-autohim-img" width="840" height="660" alt="manufacture-autohim">
+  </picture>
 </section>
 <section class="section autohim-types">
   <div class="container">

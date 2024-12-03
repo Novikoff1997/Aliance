@@ -5,7 +5,11 @@ $page_title = 'О компании';
 <section class="section section-experts">
   <div class="container">
     <div class="experts-content">
-      <img src="img/about/experts-img.jpg" alt="experts-img" class="experts-img">
+      <picture>
+        <source type="image/webp" srcset="./img/about/experts-img.webp">
+        <source type="image/jpeg" srcset="./img/about/experts-img.jpg">
+        <img src="./img/products-img/bit-him.jpg" class="experts-img" width="480" height="480" alt="experts-img">
+      </picture>
       <div class="experts-content-article">
       <div class="seporator"></div>
       <h2 class="section-title experts-title">мы - эксперты в области производства химии</h2>
@@ -69,7 +73,11 @@ $page_title = 'О компании';
           </li>
         </ul>
       </div>
-      <img src="img/about/our-production-img.jpg" alt="experts-img" class="production-img">
+      <picture>
+        <source type="image/webp" srcset="./img/about/our-production-img.webp">
+        <source type="image/jpeg" srcset="./img/about/our-production-img.jpg">
+        <img src="./img/products-img/bit-him.jpg" class="production-img" width="600" height="750" alt="our-production">
+      </picture>
     </div>
   </div>
 </section>
