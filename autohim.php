@@ -23,11 +23,9 @@ $product_image = 'product_image';
         </p>
       </div>
     </div>
+    <?php require_once('templates/features-block.php') ?>
   </div>
 </section>
-
-<?php require_once('templates/features-block.php') ?>
-
 <section class="section manufacture-autohim">
   <div class="container">
     <div class="manufacture-content-wrapper">

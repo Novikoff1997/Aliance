@@ -196,7 +196,7 @@
       <!-- /.container -->
     </header>
 
-    <section class="section section-light">
+    <section class="section section-light section-light-main">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Схема работы</h2>
@@ -340,7 +340,7 @@
       </div>
     </section>
     <!-- /.section-products -->
-    <section class="section trademarks">
+    <section class="section trademarks trademarks-main">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Собственные торговые марки</h2>
@@ -474,66 +474,66 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="client-logo">
+              <picture>
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-img">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" class="client-logo" alt="client-img">
               </picture>  
             </a>
           </div>

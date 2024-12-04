@@ -18,10 +18,10 @@ $page_title = 'О компании';
       </p>
       </div>
     </div>
+    <?php require_once('templates/features-block.php') ?>
   </div>
 </section>
 
-<?php require_once('templates/features-block.php') ?>
 
 <section class="section section-our-production">
   <div class="container">

@@ -1,4 +1,4 @@
-<section class="section section-products">
+<section class="section section-products section-products-template">
       <div class="container">
         <div class="section-product-cards">
           <div class="product-card">
