@@ -73,69 +73,69 @@
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="client-logo">
                 <source type="image/webp" srcset="./img/client-img/client-img.webp">
                 <source type="image/jpeg" srcset="./img/client-img/client-img.jpg">
-                <img src="./img/client-img/client-img.jpg" width="70" height="70">
+                <img src="./img/client-img/client-img.jpg" width="70" height="70" alt="client-logo">
               </picture>  
             </a>
           </div>
           <!-- /.clients-logo -->
         </div>
         <!-- /.clients-wrapper -->
-      <div>
+      </div>
     </section>
     <!-- /.clients -->

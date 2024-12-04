@@ -129,7 +129,7 @@ $page_title = 'Блог';
     </div>
     <div class="pages-steps">
       <ul class="pages-steps-list">
-        <li class="pages-steps-item">1</li>
+        <li class="pages-steps-item page-step-active">1</li>
         <li class="pages-steps-item">2</li>
         <li class="pages-steps-item">3</li>
         <li class="pages-steps-item">4</li>

@@ -26,54 +26,54 @@ $page_title = 'О компании';
 <section class="section section-our-production">
   <div class="container">
     <div class="production-content">
-      <div class="production-content-article">
-        <div class="seporator"></div>
-        <h2 class="section-title production-title">Наше производство</h2>
+        <div class="production-title-wrapper">
+          <div class="seporator"></div>
+          <h2 class="section-title production-title">Наше производство</h2>
+        </div>
         <p class="production-article-text">
         Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий. 
         <br><br>
         Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.
         </p>
-        <ul class="production-list">
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon production-list-icon">
-              <use href="./img/sprite.svg#car"></use>
-            </svg>
-            Автомобильная химия
-          </li>
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#house"></use>
-            </svg>
-            Бытовая химия
-          </li>
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#shield"></use>
-            </svg>
-            Дезинфицирующие средства
-          </li>
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#spray"></use>
-            </svg>
-            Пищевые аэрозоли
-          </li>
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#cosmetic"></use>
-            </svg>
-            Косметическая продукция
-          </li>
-          <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#brush"></use>
-            </svg>
-            Краски аэрозольные
-          </li>
-        </ul>
-      </div>
-      <picture>
+      <ul class="production-list">
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon production-list-icon">
+            <use href="./img/sprite.svg#car"></use>
+          </svg>
+          Автомобильная химия
+        </li>
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon client-list-icon">
+            <use href="./img/sprite.svg#house"></use>
+          </svg>
+          Бытовая химия
+        </li>
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon client-list-icon">
+            <use href="./img/sprite.svg#shield"></use>
+          </svg>
+          Дезинфицирующие средства
+        </li>
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon client-list-icon">
+            <use href="./img/sprite.svg#spray"></use>
+          </svg>
+          Пищевые аэрозоли
+        </li>
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon client-list-icon">
+            <use href="./img/sprite.svg#cosmetic"></use>
+          </svg>
+          Косметическая продукция
+        </li>
+        <li class="production-list-item">
+          <svg width="24" height="24" class="icon client-list-icon">
+            <use href="./img/sprite.svg#brush"></use>
+          </svg>
+          Краски аэрозольные
+        </li>
+      </ul>
+      <picture class="production-img-wrapper">
         <source type="image/webp" srcset="./img/about/our-production-img.webp">
         <source type="image/jpeg" srcset="./img/about/our-production-img.jpg">
         <img src="./img/products-img/bit-him.jpg" class="production-img" width="600" height="750" alt="our-production">
@@ -82,8 +82,8 @@ $page_title = 'О компании';
   </div>
 </section>
 
-<?php require_once('templates/research-section.php') ?>
 <?php require_once('templates/founder-section.php') ?>
+<?php require_once('templates/research-section.php') ?>
 
 
 

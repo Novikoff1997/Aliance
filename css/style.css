@@ -256,9 +256,12 @@ body {
   background: #3a71d1;
 }
 .navbar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   height: 100%;
-  padding: 1.5625rem 2.825rem;
+  width: 15%;
 }
 .navbar-button .button-icon {
   display: none;
@@ -376,7 +379,7 @@ body {
   overflow-wrap: break-word;
 }
 .section {
-  padding-bottom: 4rem;
+  padding-bottom: 1.2rem;
 }
 .section-title {
   font-family: "Bebas Neue";
@@ -395,6 +398,9 @@ body {
 }
 .section-light {
   padding-top: 9.125rem;
+}
+.section-light-page {
+  padding-top: 2.8625rem;
 }
 .steps {
   display: flex;
@@ -493,6 +499,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   transition: color 0.2s;
+  max-width: 405px;
 }
 .product-card-text {
   width: 19.375rem;
@@ -511,7 +518,10 @@ body {
 }
 /* ---------------------SECTION TRADEMARKS---------------------- */
 .trademarks {
-  padding-top: 5.175rem;
+  padding-top: 7.575rem;
+}
+.trademarks-page {
+  padding-top: 4.575rem;
 }
 .trademarks-cards {
   display: flex;
@@ -576,7 +586,7 @@ body {
 /* ---------------------SECTION FOUNDER---------------------- */
 .founder {
   position: relative;
-  margin-top: 5.3125rem;
+  margin-top: 8.1125rem;
 }
 .founder-photo {
   position: absolute;
@@ -611,7 +621,8 @@ body {
 }
 /* ---------------------SECTION CLIENTS---------------------- */
 .clients {
-  padding-top: 5.375rem;
+  /* padding-top: 8.175rem; */
+  padding-top: 2.975rem;
 }
 .clients-wrapper {
   display: flex;
@@ -619,6 +630,7 @@ body {
 }
 .clients-content {
   flex-basis: 50%;
+  width: 50%;
 }
 .clients-list {
   list-style: none;
@@ -626,12 +638,16 @@ body {
   columns: 2 auto;
   padding-top: 12px;
 }
+.client-list-icon {
+  flex-shrink: 0;
+}
 .clients-list-item {
   display: flex;
   align-items: center;
   gap: 1.25rem;
   margin-bottom: 1.4375rem;
   color: rgb(41, 45, 51);
+  overflow-wrap: anywhere;
 
   font-size: 1rem;
   font-weight: 400;
@@ -658,7 +674,7 @@ body {
 }
 /* ---------------------SECTION BLOG---------------------- */
 .blog {
-  padding-top: 6rem;
+  padding-top: 8.8rem;
 }
 .blog-swiper {
   padding-top: 1.25rem;
@@ -724,9 +740,9 @@ body {
 }
 .section-cta {
   position: relative;
-  padding-top: 5.45rem;
+  padding-top: 8.45rem;
   padding-bottom: 6.25rem;
-  margin-top: 9.375rem;
+  margin-top: 9.975rem;
 }
 .cta-image {
   position: absolute;
@@ -885,8 +901,8 @@ body {
   text-decoration: none;
 }
 .footer-separator {
-  color: #ebebf0;
-  background-color: #ebebf0;
+  border: none;
+  border-top: 1px solid #ebebf0;
   height: 1px;
 }
 .footer-bottom {
@@ -1077,6 +1093,8 @@ body {
 /* --------------------- SECTION EXPERTS ---------------------- */
 .section-experts {
   padding-bottom: 0;
+  padding-top: 5.5rem;
+  margin-bottom: 0.4375rem;
 }
 .experts-content {
   display: flex;
@@ -1091,14 +1109,14 @@ body {
 }
 .experts-title {
   max-width: 600px;
-  margin-bottom: 0;
+  margin: 0;
 }
 .expert-article-text {
   color: rgb(130, 138, 153);
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 0;
+  margin: 0;
 }
 .experts-img {
   flex-basis: 50%;
@@ -1109,41 +1127,68 @@ body {
   margin-top: 9.375rem;
 }
 .production-content {
-  display: flex;
-  align-items: center;
-  gap: 7.4375rem;
+  display: grid;
+  grid-template-columns: 1fr 41%;
+  grid-template-rows: 20% 1fr 1fr;
+  grid-template-areas:
+    "title img"
+    "text img"
+    "list img";
+  column-gap: 7.125rem;
+}
+.production-title-wrapper {
+  grid-area: title;
+  margin-top: 2.75rem;
+}
+.production-content-article {
+  padding-top: 2.75rem;
+}
+.production-title {
+  margin-bottom: 1.6875rem;
 }
 .production-article-text {
   color: rgb(130, 138, 153);
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  grid-area: text;
 }
 .production-list {
   list-style: none;
   columns: 2;
   padding-left: 0;
-  margin-top: 2rem;
+  margin-top: 0;
+  grid-area: list;
 }
 .production-list-item {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  margin-bottom: 1.375rem;
+  margin-bottom: 1.675rem;
+}
+.production-img-wrapper {
+  grid-area: img;
 }
 /* --------------------- RESEARCH SECTION ---------------------- */
 .research-section {
   padding-bottom: 0;
+  margin-top: 7.5rem;
+  margin-bottom: 6.1375rem;
 }
 .research-text-contant {
   display: flex;
   gap: 100px;
+}
+.research-title {
+  max-width: 37.5rem;
+  margin-bottom: 0.8125rem;
 }
 .research-text {
   color: rgb(130, 138, 153);
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  max-width: 39.6875rem;
 }
 .research-slider-footer {
   display: flex;
@@ -1172,6 +1217,9 @@ body {
   margin-top: 6.25rem;
   padding-bottom: 0;
 }
+.autohim-production-content {
+  padding-top: 1.375rem;
+}
 .autohim-production-contant-wrapper {
   display: flex;
   align-items: center;
@@ -1193,9 +1241,12 @@ body {
 .manufacture-content-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 45rem;
   min-height: 41.25rem;
+  padding-top: 2.4375rem;
+}
+.manufacture-autohim-title {
+  margin-bottom: 0.625rem;
 }
 .autohim-manufacture-list {
   columns: 2;
@@ -1210,7 +1261,7 @@ body {
 }
 /* --------------------- TYPES AUTOHIM SECTION ---------------------- */
 .autohim-types {
-  margin-top: 150px;
+  margin-top: 8.6875rem;
   padding-bottom: 0;
 }
 .autohim-types-text {
@@ -1218,7 +1269,7 @@ body {
 }
 .autohim-types-list {
   padding-left: 0;
-  margin-top: 3.125rem;
+  margin-top: 2.725rem;
   columns: 4;
   list-style: none;
 }
@@ -1246,13 +1297,20 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  padding-top: 5.0625rem;
+  margin-bottom: 10.25rem;
 }
 /* --------------------- BLOG PAGE ---------------------- */
+.blog-articles {
+  padding-top: 6.0625rem;
+  padding-bottom: 0;
+}
 .blog-articles-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(5, 1fr);
-  gap: 1.875rem;
+  column-gap: 1.875rem;
+  row-gap: 2.3rem;
   list-style: none;
   padding-left: 0;
 }
@@ -1262,10 +1320,11 @@ body {
   padding-right: 3.125rem;
   padding-bottom: 3.125rem;
   padding-left: 3.125rem;
-  padding-top: 12.375rem;
+  padding-top: 12.675rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  max-width: 44.0625rem;
 }
 .blog-articles-item::before {
   content: "";
@@ -1308,12 +1367,13 @@ body {
   margin: 0;
 }
 .pages-steps {
-  margin-top: 3.125rem;
+  margin-top: 3.425rem;
 }
 .pages-steps-list {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  padding-left: 0;
 }
 .pages-steps-item {
   width: 3.125rem;
@@ -1331,6 +1391,84 @@ body {
 }
 .pages-steps-item:hover {
   border-color: #5c8ee6;
+}
+.page-step-active {
+  border: 1px solid #5c8ee6;
+}
+/* --------------------- NOT FOUND PAGE ---------------------- */
+.page-not-found {
+  margin-top: 95px;
+  padding-top: 3rem;
+}
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error-code {
+  color: rgb(92, 142, 230);
+  font-size: 18.75rem;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0;
+}
+.error-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.error-text {
+  max-width: 30rem;
+  text-align: center;
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.error-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 18.875rem;
+  min-height: 4.75rem;
+  text-decoration: none;
+}
+.header-hide {
+  display: none;
+}
+/* --------------------- SEO TITLE ---------------------- */
+.seo-title {
+  padding-bottom: 0.4375rem;
+}
+.seo-content-title {
+  color: rgb(41, 45, 51);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  padding-top: 2.75rem;
+  margin-bottom: 0;
+}
+.seo-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.125rem;
+}
+.seo-link {
+  color: rgb(92, 142, 230);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+.seo-link:hover {
+  transform: translateX(10px);
 }
 @media (max-width: 1700px) {
   html {
@@ -1472,6 +1610,10 @@ body {
   }
   .manufacture-autohim-img {
     max-width: 35%;
+  }
+  .production-content {
+    grid-template-columns: 50% 1fr;
+    column-gap: 2.4375rem;
   }
 }
 @media (max-width: 992px) {
@@ -1695,6 +1837,17 @@ body {
   .manufacture-content-wrapper {
     max-width: 60%;
   }
+  .production-content {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "img"
+      "text"
+      "list";
+  }
+  .production-img-wrapper {
+    justify-self: center;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1867,7 +2020,7 @@ body {
     font-size: 1.75rem;
   }
   .trademarks {
-    padding-top: 3.675rem;
+    padding-top: 4.975rem;
   }
   .trademarks-card-text {
     padding-top: 8px;
@@ -1891,7 +2044,7 @@ body {
     font-size: 14px;
   }
   .clients {
-    padding-top: 4.275rem;
+    padding-top: 0.675rem;
   }
   .clients-wrapper {
     gap: 22px;
@@ -1916,7 +2069,7 @@ body {
     display: none;
   }
   .blog {
-    padding-top: 0.3rem;
+    padding-top: 4.7rem;
   }
   .blog-cards {
     height: 14.95rem;
@@ -2047,5 +2200,76 @@ body {
   }
   .autohim-types-list-item {
     max-width: 100%;
+  }
+  .error-code {
+    font-size: 14rem;
+  }
+  .steps {
+    margin-bottom: 0;
+  }
+  .steps-slider-buttons {
+    margin-top: 0.375rem;
+    height: 3.425rem;
+  }
+  .primary-button-prev,
+  .primary-button-next {
+    width: 5.1125rem;
+  }
+  .section-products {
+    padding-top: 7.1375rem;
+  }
+  .clients-content {
+    width: 100%;
+  }
+  .blog-slider-footer {
+    padding-top: 0.1875rem;
+  }
+  .header-page {
+    padding-top: 1.9rem;
+  }
+  .header-page-title {
+    margin-top: 1.0625rem;
+  }
+  .expert-article-text {
+    font-size: 14px;
+  }
+  .header-features-template {
+    margin-top: 2.125rem;
+  }
+  .production-title-wrapper {
+    margin-top: 0;
+  }
+  .production-content {
+    grid-template-rows: 7% 37% 35.5%;
+  }
+  .production-article-text {
+    font-size: 14px;
+  }
+  .founder-photo {
+    margin-bottom: 1.325rem;
+  }
+  .button-link {
+    padding-top: 0;
+  }
+  .founder-text {
+    margin-bottom: 0;
+  }
+  .research-section {
+    margin-top: 7.1rem;
+  }
+  .research-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.175rem;
+  }
+  .research-slider-footer {
+    padding-top: 0.9375rem;
+  }
+  .primary-button-prev,
+  .primary-button-next {
+    height: 75%;
+  }
+  .section-cta {
+    padding-top: 6.45rem;
   }
 }

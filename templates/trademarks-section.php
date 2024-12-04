@@ -1,7 +1,5 @@
-<section class="section trademarks">
+<section class="section trademarks trademarks-page">
       <div class="container">
-        <div class="seporator"></div>
-        <!-- <h2 class="section-title">Собственные торговые марки</h2> -->
         <div class="trademarks-cards">
           <div class="trademarks-card">
             <svg class="icon trademarks-image ag-tech-image">
