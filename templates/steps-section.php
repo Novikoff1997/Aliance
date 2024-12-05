@@ -1,4 +1,4 @@
-<section class="section section-light">
+<section class="section section-light section-light-template">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Схема работы</h2>

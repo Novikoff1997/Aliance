@@ -1,4 +1,3 @@
-<div class="container">
 <div class="swiper">
   <!-- Additional required wrapper -->
   <ul class="swiper-wrapper header-features header-features-template">
@@ -51,4 +50,3 @@
   <!-- /.slider-buttons -->
 </div>
 <!-- /.swiper -->
-</div>
