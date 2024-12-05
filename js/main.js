@@ -32,9 +32,17 @@ const closeMenu = (event) => {
     lightModeOff();
   }
 };
+const menuToggleScrollOn = function () {
+  document.querySelector(".mobile-menu-toggle").classList.add("mobile-menu-toggle-scroll");
+};
+const menuToggleScrollOff = function () {
+  document.querySelector(".mobile-menu-toggle").classList.remove("mobile-menu-toggle-scroll");
+};
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  this.scrollY > 1
+    ? (changeNavHeight("4.5rem"), menuToggleScrollOn())
+    : (changeNavHeight(""), menuToggleScrollOff());
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }

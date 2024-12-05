@@ -244,7 +244,7 @@ body {
   line-height: 160%;
   background: rgb(92, 142, 230);
   color: #ffffff;
-  padding: 0.9375rem 2.875rem;
+  padding: 0.9375rem 2rem;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -1637,8 +1637,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 1.8rem 1.8rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
+  }
+  .mobile-menu-toggle-scroll {
+    padding: 1.6rem 1.8rem;
   }
   .navbar-light .mobile-menu-line {
     background: #292d33;
@@ -1931,7 +1934,10 @@ body {
     justify-content: center;
   }
   .mobile-menu-toggle {
-    padding: 2.42rem;
+    padding: 2.22rem 2.22rem;
+  }
+  .mobile-menu-toggle-scroll {
+    padding: 1.6rem 2.22rem;
   }
   .logo-svg {
     max-width: 10rem;

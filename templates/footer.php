@@ -212,7 +212,7 @@
         <p class="modal-text">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в   самых сложных случаях!
         </p>
-        <a class="button modal-button-success" href="/">Вернуться на гланую</a>
+        <a class="button modal-button-success" href="/aliance/">Вернуться на гланую</a>
       </div>
     </div>
     <!-- /.modal -->
