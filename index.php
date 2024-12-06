@@ -625,11 +625,11 @@
             </p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input name="username" id="user-name" type="text" class="input" placeholder=" "/>
+                <input name="username" id="user-name" type="text" class="input footer-input" placeholder=" "/>
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input name="userphone" id="user-phone" type="tel" class="input phone-mask" placeholder=""/>
+                <input name="userphone" id="user-phone" type="tel" class="input footer-input phone-mask" placeholder=""/>
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
@@ -656,9 +656,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
+        <a href="/aliance/" class="footer-logo-link">
           <svg class="logo-svg footer-logo">
             <use href="./img/sprite.svg#logo-dark"></use>
           </svg>
+          </a>
           <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="address-icon" width="12px" height="16px">

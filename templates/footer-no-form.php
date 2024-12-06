@@ -1,9 +1,11 @@
 <footer class="footer">
       <div class="container">
         <div class="footer-top">
+        <a href="/aliance/" class="footer-logo-link">
           <svg class="logo-svg footer-logo">
             <use href="./img/sprite.svg#logo-dark"></use>
           </svg>
+          </a>
           <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="address-icon" width="12px" height="16px">

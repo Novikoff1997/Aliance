@@ -207,6 +207,11 @@ forms.forEach((form) => {
         rule: "required",
         errorMessage: "Укажите телефон",
       },
+      {
+        rule: "minLength",
+        value: 18,
+        errorMessage: "Номер слишком короткий",
+      },
     ])
     .onSuccess((event) => {
       const thisForm = event.target;
@@ -218,7 +223,9 @@ forms.forEach((form) => {
         }).then((responce) => {
           if (responce.ok) {
             thisForm.reset();
-            currentModal.classList.remove("is-open");
+            if (currentModal) {
+              currentModal.classList.remove("is-open");
+            }
             alertModal.classList.add("is-open");
             currentModal = alertModal;
             modalDialog = currentModal.querySelector(".modal-dialog");
