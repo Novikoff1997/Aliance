@@ -1,5 +1,6 @@
 @import url(swiper-bundle.min.css);
 @import url(normalize.css);
+@import url(hover-disable.css);
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
@@ -1968,8 +1969,7 @@ body {
   }
   .product-card {
     flex-basis: 100%;
-    height: 429px;
-    padding-top: 15px;
+    padding-top: 0;
   }
   .product-card-text {
     width: 90%;
@@ -2371,5 +2371,16 @@ body {
   }
   .policy-text {
     font-size: 1.15rem;
+  }
+  .product-card-image {
+    margin-top: 0;
+  }
+}
+@media (max-width: 375px) {
+  .product-card-image {
+    margin-top: 6.675rem;
+  }
+  .product-card {
+    padding-top: 15px;
   }
 }

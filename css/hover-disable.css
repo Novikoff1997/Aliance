@@ -1,0 +1,65 @@
+@media (max-width: 992px) {
+  .header-nav-link:hover:after {
+    width: 0;
+    left: 0;
+    right: auto;
+  }
+  .button:hover {
+    background: rgb(92, 142, 230);
+  }
+  .primary-button-prev:hover {
+    background: rgb(92, 142, 230);
+  }
+  .primary-button-prev:hover .button-arrow {
+    transform: none;
+  }
+  .primary-button-next:hover {
+    background: rgb(92, 142, 230);
+  }
+  .primary-button-next:hover .button-arrow {
+    transform: none;
+  }
+  .button-link:hover:before {
+    width: 40px;
+  }
+  .product-card:hover {
+    border-color: #ebebf0;
+  }
+  .product-card:hover .product-card-title {
+    color: inherit;
+  }
+  .trademarks-card:hover {
+    border-color: #ebebf0;
+  }
+  .trademarks-card:hover .trademarks-card-title {
+    color: inherit;
+  }
+  .trademarks-card:hover .trademarks-image {
+    fill: #828a99;
+  }
+  .clients-logo-item:hover {
+    filter: grayscale(100%);
+    transform: none;
+  }
+  .footer-menu-link:hover {
+    opacity: inherit;
+  }
+  .footer-menu-link.footer-menu-link-bold:hover {
+    opacity: inherit;
+  }
+  .footer-menu-link-bold:hover:after {
+    opacity: inherit;
+  }
+  .blog-articles-item:hover .blog-article-title {
+    transform: none;
+  }
+  .blog-articles-item:hover .blog-article-text {
+    transform: none;
+  }
+  .pages-steps-item:hover {
+    border-color: #ebebf0;
+  }
+  .seo-link:hover {
+    transform: none;
+  }
+}

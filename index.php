@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link id="favicon" rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/hover-disable.css" media="(max-width: 992px)">
     <script>
             /*! modernizr 3.6.0 (Custom Build) | MIT *
       * https://modernizr.com/download/?-webp-setclasses !*/
@@ -212,7 +213,7 @@
               <p class="steps-text">
                 Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.
               </p>
-              <a href="" class="button-link">Оставить заявку</a>
+              <a href="" class="button-link" data-toggle="modal" data-target="#feedback-modal">Оставить заявку</a>
             </li>
             <li class="swiper-slide steps-item">
               <span class="steps-num">02</span>
